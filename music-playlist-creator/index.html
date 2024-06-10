@@ -3,25 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Music Playlist Explorer</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <!-- Your header content here -->
+        <h1>Music Playlist Explorer</h1>
     </header>
+    
 
-    <main> 
-        <!-- Your main content here -->
+    <main>
+        <div id="playlistContainer">
+            <div id="playlist-cards">
+
+            </div>
+        </div>   
+
+
     </main>
+    
+    <div id="playlistModal" class="modal">
+        <div class="modal_content">
+            <span class="close">&times;</span>
+            <div class="main_modal_content">
+                <img id="playlistImage" src="assets/img/favicon.ico" alt="Playlist Image">
+                <div class="title_content">
+                    <h1 id="playlistName">Name</h1>
+                    <p id="creatorName">Name</p>
+                </div>
+
+                <button id="shuffleButton">Shuffle</button>
+            </div>
+
+            <div class="playlist_content">
+                <div class="songContainer">
+                    <img id="songImage" src="assets/img/favicon.ico" alt="Playlist Image">
+                    <div class="songContent" >
+                        <h3 id="songTitle" ></h3>
+                        <p id="artistName"></p>
+                        <p id="albumName"></p>
+                        
+                    </div>
+                    <p id="songDuration"></p>
+                </div>
+            </div>
+        </div> 
+    </div> 
+
+    
 
     <footer>
-        <!-- Your footer content here -->
+        <div class="footer">
+            <p>Sosaa Music Entertainment 2024 ©</p>
+            <p>All rights reserved.</p>
+        </div>
+       
+
     </footer>
     <script src="data/data.js"></script>
     <script src="script.js"></script>
 </body>
-</html>
+</html
