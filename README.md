@@ -51,7 +51,7 @@ Deployed Application (optional): [Music Playlist Explorer Deployed Site](ADD_LIN
   - [ ] Implement a dropdown or button options that allow users to sort the playlist by name, number of likes, or date added.
 
 ### Walkthrough Video
-https://drive.google.com/file/d/1lSZGTaYqjBgl-dYlIIPY40fKYb-y0hmP/view?usp=sharing
+https://www.loom.com/share/1752889696454502a581f92fa97b9ad2?sid=7984a2a5-0bf5-423b-9c56-e6ca9a102c80
 
 
 `ADD_EMBEDDED_CODE_HERE`
